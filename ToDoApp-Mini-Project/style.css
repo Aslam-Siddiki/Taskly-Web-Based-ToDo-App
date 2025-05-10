@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+hr{
+    height: 1px;
+    background-color: aquamarine;
+    position: relative;
+    bottom: 15px;
+}
+
+.inp{
+    height: 30px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: azure;
+    padding: 10px;
+}
+
+p {
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.task{
+    height:auto;
+    width: 250px;
+    border:2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: azure;
+    margin-top: 20px;
+}
