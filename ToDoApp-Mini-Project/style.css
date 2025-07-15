@@ -1,6 +1,16 @@
-hbody{
+body{
     margin: auto;
     background-color: white;
+
+}
+
+.main{
+    height: fit-content;
+    width: 50%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 2rem;
+
 }
 
 .header{
@@ -49,24 +59,27 @@ hr{
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 0.60rem;
+    bottom: 0.5rem;
     background-color: azure;
 }
 
 p{
     text-align: center;
-    /* margin: auto; */
+   position: relative;
+   bottom: 0.65rem;
 }
 
 
 .div{
     height: auto;
-    width: 80%;
+    width: fit-content;
     border: 2px solid black;
     border-radius: 5px;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: azure;
+    padding: 10px;
 }
 
 .checkBox{
