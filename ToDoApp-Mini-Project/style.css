@@ -1,35 +1,177 @@
-h1{
-    text-align: center;
+hbody{
+    margin: auto;
+    background-color: white;
 }
+
+.header{
+    height: 5rem;
+    width: 15rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: azure;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 hr{
     height: 1px;
-    background-color: aquamarine;
+    background-color: aqua;
     position: relative;
-    bottom: 15px;
+    bottom: 1.5rem;
 }
 
-.inp{
-    height: 30px;
-    width: 250px;
-    border: 2px solid black;
-    margin: 0 auto;
-    background-color: azure;
-    padding: 10px;
-}
-
-p {
-    position: relative;
-    top: 10px;
-    margin: 0 auto;
+.input{
+    height: 1.5rem;
+    width: 10rem;
+    margin: auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-.task{
-    height:auto;
-    width: 250px;
-    border:2px solid black;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: azure;
-    margin-top: 20px;
+
+.clk{
+    border: 3px solid rgb(47, 151, 255);
 }
+
+.mainBtn{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0.60rem;
+    background-color: azure;
+}
+
+p{
+    text-align: center;
+    /* margin: auto; */
+}
+
+
+.div{
+    height: auto;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: azure;
+}
+
+.checkBox{
+    height: 12px;
+    width: 12px;
+}
+
+.li{
+    height: 20px;
+    width: 100%;
+    flex-grow:1;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.delBtn{
+    height: 20px;
+    width: 3.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(247, 105, 105);
+    color: azure;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.doneBtn{
+    height: 20px;
+    width: 6.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    text-align: center;
+    margin: auto;
+    background-color: green;
+    color: azure;
+}
+
+.alert{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    background-color: rgb(141, 210, 38);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:2rem;
+}
+
+.delDiv{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    border: 2px solid rgb(210, 75, 38);
+    border-radius: 50%;
+    background-color: rgb(210, 75, 38);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:2rem;
+}
+
+.alertDiv{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    background-color: rgb(141, 210, 38);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:2rem;
+}
+
+.remDiv{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    border: 2px solid rgb(210, 75, 38);
+    border-radius: 50%;
+    background-color: rgb(210, 75, 38);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:2rem;
+}
+
+.hidden{
+    display: none;
+}
+
+
